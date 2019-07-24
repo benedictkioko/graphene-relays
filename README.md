@@ -19,7 +19,7 @@ Next
 virtualenv env
 source env/bin/activate
 ```
-Now we can install our dependencies:
+Install our dependencies:
 
 ```bash
 pip install -r requirements.txt
@@ -29,13 +29,13 @@ Now setup our database:
 
 ```bash
 # Setup the database
+./manage.py makemigrations
 ./manage.py migrate
 
 # Load some example data
-./manage.py loaddata ingredients
+./manage.py loaddata ingredients.json
 
-# Create an admin user (useful for logging into the admin UI
-# at http://127.0.0.1:8000/admin)
+# Create an admin
 ./manage.py createsuperuser
 ```
 Now you should be ready to start the server:
@@ -44,5 +44,5 @@ Now you should be ready to start the server:
 ./manage.py runserver 0.0.0.0:8000
 ```
 
-Now head on over to
+Now head on over to:
 [http://localhost:8000/app.api](http://localhost:8000/app.api)
