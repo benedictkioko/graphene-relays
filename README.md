@@ -8,8 +8,9 @@ Relay is a Javascript framework built by Facebook with the purpose of improving 
 - Structure around mutations to make them predictable.
 ```
 
+Git clone the project to your machine
 ```bash
-# Get the example project code
+# get the project
 git clone https://github.com/graphql-python/graphene-django.git
 cd graphene-django/examples/cookbook
 ```
