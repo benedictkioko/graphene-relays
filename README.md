@@ -11,8 +11,8 @@ Relay is a Javascript framework built by Facebook with the purpose of improving 
 Git clone the project to your machine
 ```bash
 # get the project
-git clone https://github.com/graphql-python/graphene-django.git
-cd graphene-django/examples/cookbook
+git clone https://github.com/benedictkioko/graphene-relays.git
+cd graphene-relays/cookbook
 ```
 Next
 ```bash
