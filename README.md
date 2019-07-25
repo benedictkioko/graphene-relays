@@ -1,4 +1,4 @@
-## Relay
+## Graphene Relays
 
 Relay is a Javascript framework built by Facebook with the purpose of improving the GraphQL architecture by making some core assumptions:
 
